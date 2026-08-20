@@ -1,0 +1,39 @@
+{
+  "platforms": {
+    "tabiai": {
+      "name": "Tabi AI",
+      "auth_type": "github_oauth",
+      "unit_type": "usd_balance",
+      "currency": "USD",
+      "welcome_grant_usd": 120.0,
+      "daily_checkin_min_usd": 5.0,
+      "daily_checkin_max_usd": 10.0,
+      "signup_url": "https://tabitoken.com/sign-up?aff=sn7K",
+      "router_prefix": "tb",
+      "description": "High-throughput Web3 & Developer AI Model Hub"
+    },
+    "gorouter": {
+      "name": "GoRouter",
+      "auth_type": "github_oauth",
+      "unit_type": "usd_balance",
+      "currency": "USD",
+      "welcome_grant_usd": 70.0,
+      "daily_checkin_min_usd": 5.0,
+      "daily_checkin_max_usd": 10.0,
+      "signup_url": "https://gorouter.app/sign-up?aff=ivjz",
+      "router_prefix": "gr",
+      "description": "Multi-provider AI Model Router & Gateway"
+    },
+    "codebuddy": {
+      "name": "CodeBuddy Global",
+      "auth_type": "github_oauth_keycloak",
+      "unit_type": "credits",
+      "currency": "CREDITS",
+      "bonus_pack_credits": 250,
+      "monthly_bonus_credits": 100,
+      "portal_url": "https://www.codebuddy.ai/profile/plans-usage",
+      "router_prefix": "cbai",
+      "description": "Tencent Cloud AI Code Assistant Global Platform"
+    }
+  }
+}

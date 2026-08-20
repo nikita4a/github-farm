@@ -1,0 +1,13 @@
+{
+  "name": "github-oauth-harvester",
+  "version": "1.0.0",
+  "description": "Production-grade multi-platform OAuth harvesting and session management framework for AI Gateways.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "python3 -m unittest discover -s test -p 'test_*.py'"
+  },
+  "keywords": ["github-oauth", "dot-trick", "imap-automation", "ai-gateway", "codebuddy", "gorouter", "tabi-ai"],
+  "author": "D4NNBOZ",
+  "license": "MIT"
+}

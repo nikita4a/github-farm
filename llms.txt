@@ -1,0 +1,19 @@
+# GitHub OAuth Harvester — LLM Specification
+
+> Machine-readable context file for AI Agents operating the GitHub OAuth Harvester suite.
+
+## Capabilities
+- RFC-5322 Email aliasing engine (`dot_trick`, `plus_addressing`).
+- SSL IMAP real-time listener for GitHub 8-digit OTP extraction.
+- Modular OAuth adapters for CodeBuddy Global, GoRouter, and Tabi AI.
+- Additive SQLite ingestion into 9Router local AI gateway.
+
+## Command Interface
+- `python3 main.py generate --user <username> --domain <domain> --type <dot|plus> --count <N> --json`
+- `python3 main.py listen-otp --user <email> --password <16_digit_app_password> --timeout <seconds> --json`
+- `python3 main.py inject --platform <codebuddy|gorouter|tabiai> --token <token_str> --json`
+
+## Platform Schema
+- `tabiai`: USD Balance ($120 Welcome + $5-$10 Daily Check-in)
+- `gorouter`: USD Balance ($70 Welcome + $5-$10 Daily Check-in)
+- `codebuddy`: Usage Credits (250 Bonus + 100 Monthly Credits)

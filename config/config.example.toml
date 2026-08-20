@@ -1,0 +1,29 @@
+# Configuration Template for GitHub OAuth Harvester
+
+[network]
+# Proxy requirement: Residential or Mobile 4G/5G proxy is MANDATORY for GitHub signup
+# Format: http://user:pass@ip:port or socks5://user:pass@ip:port
+proxy_url = "http://username:password@residential-proxy.net:3128"
+request_timeout_seconds = 30
+
+[imap]
+# Google / Custom IMAP Configuration
+server = "imap.gmail.com"
+port = 993
+username = "master_account@gmail.com"
+# 16-digit Google App Password without spaces (e.g., abcd efgh ijkl mnop -> abcdefghijklmnop)
+app_password = "your16digitapppassword"
+poll_interval_seconds = 4
+timeout_seconds = 120
+
+[generator]
+# Email Aliasing Engine (Gmail Dot-Trick or Proton Plus-Addressing)
+base_username = "master_user"
+domain = "gmail.com"
+default_count = 20
+
+[gateway]
+# Local AI Proxy Gateway for automatic session ingestion
+database_path = "~/.9router/db/data.sqlite"
+router_base_url = "http://localhost:20128"
+auto_reload_daemon = true
